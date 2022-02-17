@@ -1,0 +1,13 @@
+Function Main
+    Declare Real Dividend, Divisor, Remainder
+    Declare Integer Quotient
+    Assign Divisor = 3
+    Input Dividend
+    Assign Quotient = Dividend/Divisor
+    Assign Remainder = (Dividend/Divisor)- Quotient
+    If Remainder==0
+        Output True
+    False:
+        Output False
+    End
+End

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DONTAMSETTY SAKETH"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-17 09:43:56 AM"/>
+        <attribute name="created" value="RE9OVEFNU0VUVFkgU0FLRVRIO0xBUFRPUC1MMTM0VEU2VDsyMDIxLTExLTAxOzA5OjI3OjI3IFBNOzM2NDc="/>
+        <attribute name="edited" value="RE9OVEFNU0VUVFkgU0FLRVRIO0xBUFRPUC1MMTM0VEU2VDsyMDIxLTExLTAxOzA5OjM3OjIzIFBNOzI7Mzc1Mw=="/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLU5EUThNOU87MjAyMi0wMi0xNzswOTo0Mzo1NiBBTTsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, n, c, i" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="0"/>
+            <assign variable="b" expression="1"/>
+            <input variable="n"/>
+            <output expression="a" newline="True"/>
+            <output expression="b" newline="True"/>
+            <for variable="i" start="2" end="n-1" direction="inc" step="1">
+                <assign variable="c" expression="a+b"/>
+                <output expression="c" newline="True"/>
+                <assign variable="a" expression="b"/>
+                <assign variable="b" expression="c"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

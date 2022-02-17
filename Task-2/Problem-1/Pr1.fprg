@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="DELL"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-17 09:22:12 AM"/>
+        <attribute name="created" value="REVMTDtERVNLVE9QLU5EUThNOU87MjAyMi0wMi0xNzswOToxMToyMiBBTTsyNjI4"/>
+        <attribute name="edited" value="REVMTDtERVNLVE9QLU5EUThNOU87MjAyMi0wMi0xNzswOToyMjoxMiBBTTsxOzI3Mzc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Dividend, Divisor, Remainder" type="Real" array="False" size=""/>
+            <declare name="Quotient" type="Integer" array="False" size=""/>
+            <assign variable="Divisor" expression="3"/>
+            <input variable="Dividend"/>
+            <assign variable="Quotient" expression="Dividend/Divisor"/>
+            <assign variable="Remainder" expression="(Dividend/Divisor)- Quotient"/>
+            <if expression="Remainder==0">
+                <then>
+                    <output expression="True" newline="True"/>
+                </then>
+                <else>
+                    <output expression="False" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,14 @@
+Function Main
+    Declare Integer a, b, n, c, i
+    Assign a = 0
+    Assign b = 1
+    Input n
+    Output a
+    Output b
+    For i = 2 to n-1
+        Assign c = a+b
+        Output c
+        Assign a = b
+        Assign b = c
+    End
+End
